@@ -1,0 +1,24 @@
+code are in opt.cc, opt.h.
+
+cd to£º
+	pg23/all
+run:
+	make clean
+run:
+	make
+
+run:
+	./code + " " + run type + " " + path +I type filename
+	
+	run type could be v, u, v u , u v
+		v for value numbering
+		u for looping unrolling
+		v u or u v for both
+	
+run:
+	 ./sim + " " + original type filename + " " + (-d + " " + i type filename)
+      note down cycle number
+
+run:
+	 ./sim + " " + output.txt + " " + (-d i type filename)
+      note down cycle number

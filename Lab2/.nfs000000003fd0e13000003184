@@ -1,0 +1,168 @@
+read => r5
+mult r5, r5 => r8
+mult r8, r5 => r9
+i2i r9 => r7
+loadI 0 => r6
+loadI 1 => r0
+loadI 1 => r1
+loadI 1 => r2
+loadI 1 => r3
+cmp_LE r3, r7 => r10
+cbr r10 -> L0, L1
+L0: nop
+mult r5, r5 => r11
+mult r11, r5 => r12
+mult r0, r12 => r13
+i2i r11 => r14
+mult r1, r14 => r15
+add r13, r15 => r16
+add r16, r2 => r17
+i2i r17 => r6
+addI r2, 1 => r18
+i2i r18 => r2
+cmp_GT r2, r5 => r19
+cbr r19 -> L2, L3
+L2: nop
+loadI 1 => r2
+addI r1, 1 => r20
+i2i r20 => r1
+L3: nop
+cmp_GT r1, r5 => r21
+cbr r21 -> L5, L6
+L5: nop
+loadI 1 => r1
+addI r0, 1 => r22
+i2i r22 => r0
+L6: nop
+addI r3, 1 => r3
+cmp_LE r3, r7 => r23
+cbr r23 -> L0, L1
+L1: nop
+write r6	
+halt
+read => r5
+mult r5, r5 => r8
+mult r8, r5 => r9
+i2i r9 => r7
+loadI 0 => r6
+loadI 1 => r0
+loadI 1 => r1
+loadI 1 => r2
+loadI 1 => r3
+cmp_LE r3, r7 => r10
+cbr r10 -> L0, L1
+L0: nop
+mult r5, r5 => r11
+mult r11, r5 => r12
+mult r0, r12 => r13
+i2i r11 => r14
+mult r1, r14 => r15
+add r13, r15 => r16
+add r16, r2 => r17
+i2i r17 => r6
+addI r2, 1 => r18
+i2i r18 => r2
+cmp_GT r2, r5 => r19
+cbr r19 -> L2, L3
+L2: nop
+loadI 1 => r2
+addI r1, 1 => r20
+i2i r20 => r1
+L3: nop
+cmp_GT r1, r5 => r21
+cbr r21 -> L5, L6
+L5: nop
+loadI 1 => r1
+addI r0, 1 => r22
+i2i r22 => r0
+L6: nop
+addI r3, 1 => r3
+cmp_LE r3, r7 => r23
+cbr r23 -> L0, L1
+L1: nop
+write r6	
+halt
+read => r5
+mult r5, r5 => r8
+mult r8, r5 => r9
+i2i r9 => r7
+loadI 0 => r6
+loadI 1 => r0
+loadI 1 => r1
+loadI 1 => r2
+loadI 1 => r3
+cmp_LE r3, r7 => r10
+cbr r10 -> L0, L1
+L0: nop
+mult r5, r5 => r11
+mult r11, r5 => r12
+mult r0, r12 => r13
+mult r5, r5 => r14
+mult r1, r14 => r15
+add r13, r15 => r16
+add r16, r2 => r17
+i2i r17 => r6
+addI r2, 1 => r18
+i2i r18 => r2
+cmp_GT r2, r5 => r19
+cbr r19 -> L2, L3
+L2: nop
+loadI 1 => r2
+addI r1, 1 => r20
+i2i r20 => r1
+L3: nop
+cmp_GT r1, r5 => r21
+cbr r21 -> L5, L6
+L5: nop
+loadI 1 => r1
+addI r0, 1 => r22
+i2i r22 => r0
+L6: nop
+addI r3, 1 => r3
+cmp_LE r3, r7 => r23
+cbr r23 -> L0, L1
+L1: nop
+write r6	
+halt
+read => r5
+mult r5, r5 => r8
+mult r8, r5 => r9
+i2i r9 => r7
+loadI 0 => r6
+loadI 1 => r0
+loadI 1 => r1
+loadI 1 => r2
+loadI 1 => r3
+cmp_LE r3, r7 => r10
+cbr r10 -> L0, L1
+L0: nop
+mult r5, r5 => r11
+mult r11, r5 => r12
+mult r0, r12 => r13
+i2i r11 => r14
+mult r1, r14 => r15
+add r13, r15 => r16
+add r16, r2 => r17
+i2i r17 => r6
+addI r2, 1 => r18
+i2i r18 => r2
+cmp_GT r2, r5 => r19
+cbr r19 -> L2, L3
+L2: nop
+loadI 1 => r2
+addI r1, 1 => r20
+i2i r20 => r1
+L3: nop
+cmp_GT r1, r5 => r21
+cbr r21 -> L5, L6
+L5: nop
+loadI 1 => r1
+addI r0, 1 => r22
+i2i r22 => r0
+L6: nop
+addI r3, 1 => r3
+cmp_LE r3, r7 => r23
+cbr r23 -> L0, L1
+L1: nop
+write r6	
+halt

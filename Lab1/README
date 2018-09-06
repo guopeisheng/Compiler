@@ -1,0 +1,5 @@
+Build with Makefile: 
+run 'make'
+
+Run demo program:
+./demo demoFileName.demo
